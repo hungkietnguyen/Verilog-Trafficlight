@@ -1,0 +1,11 @@
+# vsim -debugDB -l test.log -voptargs="+acc" -assertdebug -c tb_fsm_traffic_light -do "log -r /*; run -all;" 
+# Start time: 15:04:57 on Jun 22,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Error (suppressible): /ictc/student-data/hungkiet/FSM_TRAFFIC/fsm_traffic_light.v(17): (vopt-8884) Illegal output port connection for 'street_a' (9th connection) to reg type. 
+# ** Error (suppressible): /ictc/student-data/hungkiet/FSM_TRAFFIC/fsm_traffic_light.v(17): (vopt-8884) Illegal output port connection for 'street_b' (10th connection) to reg type. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# End time: 15:04:58 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
